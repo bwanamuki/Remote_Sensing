@@ -1,3 +1,10 @@
+#*************************************
+# Author: Reginald Faustus S.
+# Email:  bwanamuki@hotmail.com
+# Tel:    +255(0)754284641
+# Twitter: @bwanamuki
+#*************************************
+
 library(sf)
 library(raster)
 library(here)
@@ -65,14 +72,6 @@ p<-ggplot() +
 ggdraw(p) + 
   draw_label(x = 0.97, y = 0.025, label = "Data: MODIS Land Cover\n Reginald Faustus S\n +255(0)754284641", 
              hjust = 1,size = 14)
-  
+
+#Saving the file in jpg format
 ggsave("~/tz.jpg", width = 21, height = 20, dpi= 300)
-
-
-
-
-
-
-
-
-
